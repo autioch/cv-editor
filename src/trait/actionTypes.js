@@ -1,0 +1,9 @@
+const TRAIT__ADD = 'TRAIT__ADD';
+const TRAIT__REMOVE = 'TRAIT__REMOVE';
+const TRAIT__TEXT = 'TRAIT__TEXT';
+
+export {
+  TRAIT__ADD,
+  TRAIT__REMOVE,
+  TRAIT__TEXT
+};

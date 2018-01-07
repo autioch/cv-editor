@@ -1,0 +1,64 @@
+$chrome__bug: 2cm;
+$a4__width: 21cm;
+$a4__height: 29.7cm;
+$padding: 1cm;
+
+html {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-color: #eee;
+}
+
+a {
+  color: #06f;
+  text-decoration: none;
+  border-bottom: solid 1px #06f;
+}
+
+input {
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.paper {
+  display: block;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: .5cm;
+  box-shadow: 0 0 .5cm rgba(0, 0, 0, .5);
+  width: $a4__width + $padding;
+  height: $a4__height + $padding + $chrome__bug;
+  box-sizing: border-box;
+  padding: $padding;
+  position: relative;
+
+  @media print {
+    padding: 0;
+    width: $a4__width;
+    height: $a4__height;
+  }
+}
+
+.column--container {
+  display: flex;
+}
+
+.column--right {
+  width: 28%;
+}
+
+.column--left {
+  width: 68%;
+  margin-right: 4%;
+  font-size: 1.1em;
+}
+
+.section-header {
+  text-transform: uppercase;
+  border-bottom: solid 1px #aaa;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+  margin: 1em 0 .5em;
+}

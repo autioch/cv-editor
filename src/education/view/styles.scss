@@ -1,0 +1,26 @@
+.education__list-item {
+  margin-bottom: .5em;
+}
+
+.education-item__period-separator {
+  display: inline-block;
+  margin: 0 .5em;
+}
+
+.education-item__period {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.education__country {
+  color: #999;
+}
+
+.education__city {
+  margin-right: .5em;
+  color: #999;
+
+  &::after {
+    content: ',';
+  }
+}

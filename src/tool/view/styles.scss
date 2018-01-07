@@ -1,0 +1,36 @@
+.skills__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill {
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill__key {
+  margin-right: 1em;
+}
+
+.skill__value {
+  align-self: flex-end;
+}
+
+.skill__value-marker {
+  display: inline-block;
+  width: .5em;
+  height: .5em;
+  box-sizing: border-box;
+  border-radius: .25em;
+  border: solid 1px #aaa;
+  margin-left: .5em;
+}
+
+.skill__value-marker---full {
+  background: #333;
+  -webkit-print-color-adjust: exact;
+}

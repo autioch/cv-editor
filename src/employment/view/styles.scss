@@ -1,0 +1,90 @@
+/* PERIOD */
+
+.c-period__separator {
+  display: inline-block;
+  margin: 0 .5em;
+}
+
+.c-period {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.c-period__input {
+  width: 6em;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* ACTION */
+
+.c-action {
+  position: absolute;
+  display: none;
+  right: 100%;
+  padding: 1em;
+  bottom: 0;
+  z-index: 1;
+}
+
+.c-action__button {
+  cursor: pointer;
+  padding: .1em .25em;
+  background: #fff;
+  border: solid 1px #bbb;
+  color: #444;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+/* Employment */
+
+.employment__list-item {
+  margin-bottom: .5em;
+  position: relative;
+
+  &:hover {
+    > .c-action {
+      display: block;
+    }
+  }
+}
+
+.employment-item__company {
+  color: #999;
+
+  &::after {
+    margin: 0 .5em;
+    content: '-';
+  }
+}
+
+.employment-item__position {
+  color: #999;
+}
+
+.tools {
+  color: #666;
+}
+
+.tools__header {
+  margin-right: .25em;
+
+  &::after {
+    content: ':';
+  }
+}
+
+.employment-item__summary {
+  width: 100%;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: 0;
+  font-size: 12px;
+  resize: none;
+  border: 0;
+  padding: 0;
+}

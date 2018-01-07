@@ -1,0 +1,33 @@
+.personal__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+}
+
+.personal-item {
+  display: table-row;
+  width: 100%;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.personal-item__key {
+  display: table-cell;
+  width: 100em;
+  color: #666;
+}
+
+.personal-item__value {
+  display: table-cell;
+}
+
+.personal-item__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-item__list-item {
+  white-space: nowrap;
+}
